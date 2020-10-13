@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <style>
+    
+        .tab a{
+            background-color: deepskyblue;
+            text-decoration: none;
+            font-size: 30px;
+            color: black;
+            padding: 20px;
+            display: inline-block;
+        }
+        
+        .tab div{
+            display: none;
+            border: solid;
+        }
+        
+/*    Pseudo selector    */
+        .tab div: target{
+            display: block;
+        }
+    
+    </style>
+    
+</head>
+<body>
+    <div class = 'tab'>
+        <a href = '#about'>About</a>
+        <a href = '#product'>Product</a>
+        
+        <div id = 'about'>
+            <h1>About Page</h1>
+        </div>
+    
+        <div id = 'product'>
+            <h1>Product Page</h1>
+        </div>
+    </div>
+</body>
+</html>
