@@ -166,6 +166,50 @@
             margin-top: -5px;
             padding: 20px 0;
         }
+        
+        @media all and (min-width: 992px){
+            
+            #portfolio figure{
+                width: 90%;
+                height: 314;
+            }
+            
+            #portfolio figcaption{ 
+                display: inline-block;
+                width:42%;
+                height: 100%;
+                padding: 30px;
+            }
+            
+            #portfolio img{
+                vertical-align: top;
+                display: inline-block;
+                width: 57%;
+            }
+            
+            #portfolio figcaption p{
+                width: 100%;
+            }
+            
+            .imgleft img{
+                float: left;
+            }
+
+            .imgleft figcaption{
+                float: right;
+            }
+            
+            .imgright img{
+                float: right;
+            }
+
+            .imgright figcaption{
+                float: left;
+            }
+            
+            
+        }
+        
     </style>
 </head>
 
@@ -189,7 +233,7 @@
         </div>
         <div id="portfolio">
 
-            <figure>
+            <figure class = 'imgleft'>
                 <img src="https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg" alt="">
                 <figcaption>
                     <h1>Shoreline</h1>
@@ -199,7 +243,7 @@
 
             </figure>
 
-            <figure>
+            <figure class = 'imgleft'>
 
                 <img src="https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/demo-image-01.jpg" alt="">
                 <figcaption>
@@ -208,7 +252,7 @@
                 </figcaption>
             </figure>
 
-            <figure>
+            <figure class = 'imgright'>
                 <img src="https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/demo-image-02.jpg" alt="">
                 <figcaption>
                     <h1>
